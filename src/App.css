@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 0px 40px;
+  font-size: 20px;
+}
+
+.contanier {
+  height: calc(100vh - 5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  top: 30%;
+  justify-content: center;
+  position: absolute;
+}
+
+.Droparea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
